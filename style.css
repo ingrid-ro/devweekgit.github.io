@@ -50,7 +50,7 @@
 
 .profession {
     color: #eeeeee;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -65,7 +65,6 @@
 
 .contact-info ul {
     padding-top: 1.5rem;
-    cc
 }
 
 .contact-info ul li,
@@ -96,7 +95,6 @@
 
 .right-title {
     color: #eeeeee;
-    font-size: 20px;
 }
 
 .gap {
@@ -106,4 +104,39 @@
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
